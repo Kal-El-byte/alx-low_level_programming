@@ -20,8 +20,8 @@ int main(void)
 
 	for (x = 0; x < 100; x++)
 	{
-		passd[x] = rand() % 78;
-		sum += (pasxs[x] + '0');
+		pass[x] = rand() % 78;
+		sum += (pass[x] + '0');
 		putchar(pass[x] + '0');
 		if ((27722 - sum) - '0' < 78)
 		{
