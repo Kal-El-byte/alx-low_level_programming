@@ -23,7 +23,7 @@ int main(void)
 		pass[x] = rand() % 78;
 		sum += (pass[x] + '0');
 		putchar(pass[x] + '0');
-		if ((27722 - sum) - '0' < 78)
+		if ((2772 - sum) - '0' < 78)
 		{
 			y = 2772 - sum - '0';
 			sum += y;
